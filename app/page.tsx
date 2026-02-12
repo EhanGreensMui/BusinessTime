@@ -86,7 +86,7 @@ function SadCat({ className }: { className?: string }) {
 // Celebration characters SVG — ocean theme with dolphins & sea creatures
 function CelebrationCharacters({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 400 250" className={className} xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 400 310" className={className} xmlns="http://www.w3.org/2000/svg">
       {/* Water background shimmer */}
       <ellipse cx="200" cy="230" rx="190" ry="20" fill="#b3e5fc" opacity="0.3"/>
 
@@ -213,6 +213,99 @@ function CelebrationCharacters({ className }: { className?: string }) {
       <circle cx="280" cy="110" r="4" fill="none" stroke="#b3e5fc" strokeWidth="1" opacity="0.6"/>
       <circle cx="290" cy="95" r="3" fill="none" stroke="#b3e5fc" strokeWidth="1" opacity="0.5"/>
       <circle cx="270" cy="125" r="2" fill="none" stroke="#b3e5fc" strokeWidth="1" opacity="0.4"/>
+
+      {/* ✨ MERMAID MILLY ✨ */}
+      <g transform="translate(168, 75)">
+        {/* Tail fin */}
+        <path d="M 22 105 Q 5 120 -5 115 Q 0 108 8 105" fill="#26c6da" stroke="#00acc1" strokeWidth="1"/>
+        <path d="M 38 105 Q 55 120 65 115 Q 60 108 52 105" fill="#26c6da" stroke="#00acc1" strokeWidth="1"/>
+        {/* Tail — shimmery gradient */}
+        <path d="M 15 65 Q 10 85 12 105 Q 30 110 48 105 Q 50 85 45 65Z" fill="url(#tailGrad)"/>
+        {/* Tail scale details */}
+        <path d="M 18 72 Q 30 76 42 72" fill="none" stroke="#00bcd4" strokeWidth="0.8" opacity="0.5"/>
+        <path d="M 16 80 Q 30 84 44 80" fill="none" stroke="#00bcd4" strokeWidth="0.8" opacity="0.5"/>
+        <path d="M 15 88 Q 30 92 45 88" fill="none" stroke="#00bcd4" strokeWidth="0.8" opacity="0.5"/>
+        <path d="M 14 96 Q 30 100 46 96" fill="none" stroke="#00bcd4" strokeWidth="0.8" opacity="0.5"/>
+
+        {/* Body / torso */}
+        <path d="M 18 30 Q 15 48 15 65 Q 30 70 45 65 Q 45 48 42 30Z" fill="#ffe0b2"/>
+
+        {/* Shell bikini top */}
+        <ellipse cx="23" cy="35" rx="7" ry="5" fill="#f48fb1"/>
+        <ellipse cx="37" cy="35" rx="7" ry="5" fill="#f48fb1"/>
+        <path d="M 19 33 Q 23 30 27 33" fill="none" stroke="#e91e63" strokeWidth="0.7"/>
+        <path d="M 33 33 Q 37 30 41 33" fill="none" stroke="#e91e63" strokeWidth="0.7"/>
+        <line x1="27" y1="34" x2="33" y2="34" stroke="#e91e63" strokeWidth="0.8"/>
+
+        {/* Necklace */}
+        <path d="M 20 28 Q 30 31 40 28" fill="none" stroke="#ffd700" strokeWidth="0.8"/>
+        <circle cx="30" cy="30" r="2" fill="#ffd700"/>
+
+        {/* Head */}
+        <circle cx="30" cy="15" r="15" fill="#ffe0b2"/>
+
+        {/* Hair — long flowing */}
+        <path d="M 15 10 Q 8 -5 12 -8 Q 18 -10 20 0 Q 18 8 15 12Z" fill="#e91e63"/>
+        <path d="M 20 5 Q 18 -8 22 -12 Q 28 -12 27 -2 Q 25 5 22 8Z" fill="#c2185b"/>
+        <path d="M 27 3 Q 28 -10 33 -12 Q 38 -10 36 -2 Q 35 5 33 7Z" fill="#e91e63"/>
+        <path d="M 35 5 Q 38 -8 42 -6 Q 46 -2 44 5 Q 42 10 38 10Z" fill="#c2185b"/>
+        <path d="M 42 10 Q 48 5 50 10 Q 50 18 45 15Z" fill="#e91e63"/>
+        {/* Hair flowing down sides */}
+        <path d="M 15 12 Q 5 18 3 35 Q 2 50 8 55 Q 10 45 12 35 Q 13 25 15 18Z" fill="#e91e63" opacity="0.9"/>
+        <path d="M 45 12 Q 55 18 57 35 Q 58 50 52 55 Q 50 45 48 35 Q 47 25 45 18Z" fill="#c2185b" opacity="0.9"/>
+        {/* Hair highlight */}
+        <path d="M 22 -5 Q 24 -8 26 -5" fill="none" stroke="#f48fb1" strokeWidth="1.5" opacity="0.6"/>
+
+        {/* Starfish hair clip */}
+        <g transform="translate(42, 2) scale(0.45)">
+          <polygon points="10,0 12,7 19,7 13,11 15,18 10,14 5,18 7,11 1,7 8,7" fill="#ffd700" stroke="#ffa000" strokeWidth="1"/>
+        </g>
+
+        {/* Face */}
+        {/* Eyes — big kawaii style */}
+        <ellipse cx="24" cy="14" rx="3.5" ry="4" fill="white"/>
+        <ellipse cx="36" cy="14" rx="3.5" ry="4" fill="white"/>
+        <ellipse cx="24.5" cy="15" rx="2.2" ry="2.8" fill="#1a237e"/>
+        <ellipse cx="36.5" cy="15" rx="2.2" ry="2.8" fill="#1a237e"/>
+        <circle cx="23.5" cy="13.5" r="1" fill="white"/>
+        <circle cx="35.5" cy="13.5" r="1" fill="white"/>
+        <circle cx="25" cy="16" r="0.5" fill="white"/>
+        <circle cx="37" cy="16" r="0.5" fill="white"/>
+        {/* Eyelashes */}
+        <path d="M 20 11 Q 22 9.5 24 10.5" fill="none" stroke="#1a237e" strokeWidth="0.8"/>
+        <path d="M 36 10.5 Q 38 9.5 40 11" fill="none" stroke="#1a237e" strokeWidth="0.8"/>
+        {/* Blush */}
+        <ellipse cx="19" cy="19" rx="4" ry="2.5" fill="#f48fb1" opacity="0.4"/>
+        <ellipse cx="41" cy="19" rx="4" ry="2.5" fill="#f48fb1" opacity="0.4"/>
+        {/* Smile */}
+        <path d="M 26 21 Q 30 25 34 21" fill="none" stroke="#bf360c" strokeWidth="1.2" strokeLinecap="round"/>
+        {/* Little nose */}
+        <circle cx="30" cy="18" r="0.8" fill="#e6a67a"/>
+
+        {/* Arms reaching out */}
+        <path d="M 18 35 Q 8 30 3 25" fill="none" stroke="#ffe0b2" strokeWidth="4" strokeLinecap="round"/>
+        <circle cx="2" cy="24" r="2.5" fill="#ffe0b2"/>
+        <path d="M 42 35 Q 52 30 57 25" fill="none" stroke="#ffe0b2" strokeWidth="4" strokeLinecap="round"/>
+        <circle cx="58" cy="24" r="2.5" fill="#ffe0b2"/>
+
+        {/* Sparkles around Milly */}
+        <text x="-12" y="0" fontSize="8" fill="#ffd700">✨</text>
+        <text x="55" y="-5" fontSize="7" fill="#ffd700">✨</text>
+        <text x="60" y="60" fontSize="6" fill="#ffd700">✨</text>
+        <text x="-8" y="70" fontSize="7" fill="#ffd700">✨</text>
+
+        {/* Name label */}
+        <text x="30" y="130" fontSize="9" fill="#e91e63" fontFamily="'Bubblegum Sans', cursive" textAnchor="middle" fontWeight="bold">Mermaid Milly</text>
+      </g>
+
+      {/* Tail gradient definition */}
+      <defs>
+        <linearGradient id="tailGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#4dd0e1"/>
+          <stop offset="50%" stopColor="#26c6da"/>
+          <stop offset="100%" stopColor="#00acc1"/>
+        </linearGradient>
+      </defs>
 
       {/* Sparkles */}
       <text x="140" y="25" fontSize="14" fill="#ffd700">✨</text>
@@ -758,7 +851,7 @@ export default function ValentinePage() {
 
             {/* Celebration Characters */}
             <motion.div
-              className="w-52 h-36 sm:w-72 sm:h-48"
+              className="w-72 h-56 sm:w-96 sm:h-72 md:w-[28rem] md:h-80"
               initial={{ scale: 0, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.6, type: "spring" }}
