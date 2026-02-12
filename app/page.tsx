@@ -409,7 +409,10 @@ Every moment with you feels like a beautiful dream I never want to wake up from.
 
 Thank you for choosing me. Thank you for being you.
 
-Forever yours ♥ Jellyman`;
+I am incredibly proud of you and I love you very much.
+
+Forever yours ♥ 
+🪼Jellyman🪼`;
 
   const [displayed, setDisplayed] = useState("");
   const [done, setDone] = useState(false);
@@ -466,11 +469,11 @@ const loveReasons = [
   { emoji: "😊", text: "Your smile makes everything better" },
   { emoji: "🤣", text: "You always know how to make me laugh" },
   { emoji: "🫂", text: "Your hugs feel like home" },
-  { emoji: "✨", text: "You believe in me when I don't believe in myself" },
+  { emoji: "🪸", text: "You believe in me when I don't believe in myself" },
   { emoji: "🐡", text: "The way you get excited about little things" },
   { emoji: "🐢", text: "Your strength inspires me every day" },
   { emoji: "🎵", text: "How you sing along to every song in the car" },
-  { emoji: "🌙", text: "Your curiosity in everything around you" },
+  { emoji: "🦋", text: "Your curiosity in everything around you" },
   { emoji: "👀", text: "The way you look at me" },
   { emoji: "🐳", text: "Simply because you're you" },
 ];
