@@ -401,7 +401,7 @@ function Confetti() {
 
 // ---- TYPEWRITER LOVE LETTER ----
 function TypewriterLetter() {
-  const fullText = `My dearest Valentine,
+  const fullText = `My lovely Mallimander,
 
 From the moment you came into my life, everything changed for the better. Your smile lights up my darkest days, your laugh is my favorite sound, and your love is the greatest gift I've ever received.
 
@@ -409,7 +409,7 @@ Every moment with you feels like a beautiful dream I never want to wake up from.
 
 Thank you for choosing me. Thank you for being you.
 
-Forever yours ♥`;
+Forever yours ♥ Jellyman`;
 
   const [displayed, setDisplayed] = useState("");
   const [done, setDone] = useState(false);
@@ -467,12 +467,12 @@ const loveReasons = [
   { emoji: "🤣", text: "You always know how to make me laugh" },
   { emoji: "🫂", text: "Your hugs feel like home" },
   { emoji: "✨", text: "You believe in me when I don't believe in myself" },
-  { emoji: "🍳", text: "The way you get excited about little things" },
-  { emoji: "💪", text: "Your strength inspires me every day" },
+  { emoji: "🐡", text: "The way you get excited about little things" },
+  { emoji: "🐢", text: "Your strength inspires me every day" },
   { emoji: "🎵", text: "How you sing along to every song in the car" },
-  { emoji: "🌙", text: "Late night conversations about everything and nothing" },
+  { emoji: "🌙", text: "Your curiosity in everything around you" },
   { emoji: "👀", text: "The way you look at me" },
-  { emoji: "💝", text: "Simply because you're you" },
+  { emoji: "🐳", text: "Simply because you're you" },
 ];
 
 function ReasonsCarousel() {
@@ -923,7 +923,7 @@ export default function ValentinePage() {
                     delay: Math.random() * 3,
                   }}
                 >
-                  {['🐬', '🐠', '🐙', '🦀', '🫧', '🐚', '💕', '✨', '🌊'][Math.floor(Math.random() * 9)]}
+                  {['🐬', '🐠', '🐙', '🦀', '🫧', '🐚', '💕', '✨', '🌊','🧜‍♀️'][Math.floor(Math.random() * 9)]}
                 </motion.span>
               ))}
             </div>
